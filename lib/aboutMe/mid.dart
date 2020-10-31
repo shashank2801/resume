@@ -12,7 +12,7 @@ class Mid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.deepPurple,
+      color: Color(0xff60D9D0),
       height: MediaQuery.of(context).size.height * 0.5,
       width: MediaQuery.of(context).size.width * 1,
       child: SingleChildScrollView(
@@ -20,7 +20,7 @@ class Mid extends StatelessWidget {
         child: Row(
           children: [
             Container(
-              color: Colors.deepPurple[800],
+              color: Color(0xff35C7D0),
               width: MediaQuery.of(context).size.width * 0.15,
               child: Center(
                 child: Text(
@@ -58,7 +58,7 @@ class Mid extends StatelessWidget {
       padding: const EdgeInsets.all(30.0),
       child: Container(
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Color(0xffffa48e),
             borderRadius: BorderRadius.all(Radius.circular(20))),
         width: MediaQuery.of(context).size.width * .25,
         height: (MediaQuery.of(context).orientation == Orientation.landscape ||

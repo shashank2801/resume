@@ -17,7 +17,7 @@ Widget topLandscape(BuildContext context) {
           Text(
             "Shashank Singhal",
             style: TextStyle(
-                fontSize: MediaQuery.of(context).size.width*.035, fontFamily: 'SourceSansPro', color: Colors.red),
+                fontSize: MediaQuery.of(context).size.width*.035, fontFamily: 'SourceSansPro', color: Color(0xffffa48e)),
           ),
         ],
       ),
@@ -47,7 +47,7 @@ Widget topPortrait(BuildContext context) {
       Text(
         "Shashank\nSinghal",
         style: TextStyle(
-            fontSize: MediaQuery.of(context).size.width*.15, fontFamily: 'SourceSansPro', color: Colors.red),
+            fontSize: MediaQuery.of(context).size.width*.15, fontFamily: 'SourceSansPro', color: Color(0xffffa48e)),
       ),
       SizedBox(
         height: MediaQuery.of(context).size.height * .05,

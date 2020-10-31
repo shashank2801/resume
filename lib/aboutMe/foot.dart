@@ -10,7 +10,7 @@ class Foot extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              Text("KIET Group of Institutions, Ghaziabad",style: TextStyle(fontSize: MediaQuery.of(context).size.width*.035,fontFamily: 'SourceSansPro'),),
+              Text("KIET Group of Institutions, Ghaziabad",style: TextStyle(fontSize: MediaQuery.of(context).size.height*.035,fontFamily: 'SourceSansPro'),),
               SocialAccounts(iconSize: (MediaQuery.of(context).orientation == Orientation.landscape ||
                       MediaQuery.of(context).size.longestSide > 1200)
                   ? MediaQuery.of(context).size.width*.03
